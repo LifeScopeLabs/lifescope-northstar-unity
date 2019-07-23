@@ -1,32 +1,30 @@
-﻿# lifescope-northstar-unity
-
-LifeScope North Star / Polaris AR Unity tools
+﻿Hey North Star community! I’m Liam Broza @mrhegemon  with Michelle Juarez @ojosgitanos working on a North Star / Polaris AR project based off our Unity tools and 3D maps. 
 
 
-# Team
-
-
-Liam Broza @mrhegemon 
-
-Michelle Juarez @ojosgitanos 
-
-
-
-**Special Thanks to Noa Labs & Polaris AR**
-
-
-
-Hey North Star community! I’m @LiamBroza with @ojosgitanos working on a North Star / Polaris AR project based off our Unity tools and 3D maps. 
-
-
-
-[https://github.com/LifeScopeLabs/lifescope-northstar-unity](https://github.com/LifeScopeLabs/lifescope-northstar-unity)
 
 [https://github.com/LifeScopeLabs/lifescope-unity](https://github.com/LifeScopeLabs/lifescope-unity)
 
 
 
-We are building tools to show 3D maps at worldscale, record the world, record people, and playback sensor data in AR. Looking forward to collaborating with you all!
+We are building tools to show 3D maps at worldscale, record the world, record people, and playback sensor data in AR. 
+
+
+
+* Log in with LifeScope using the North Star headset display.
+* 3D maps and LifeScope locations in North Star headset display.
+  * AR Miniature 
+  * AR World Scale
+* Record 3D data with Leap Motion and Occipital Perception Engine.
+  * Hand tracking
+  * Room tracking
+
+
+
+Looking forward to collaborating with you all!
+
+
+
+**Special thanks to Noa Labs & Polaris AR!**
 
 
 
@@ -52,13 +50,14 @@ We are building tools to show 3D maps at worldscale, record the world, record pe
 
 
 
-# Guides
+## Guides
 
 * [https://forums.structure.io/t/room-capture-development-approach/348](https://forums.structure.io/t/room-capture-development-approach/348)
+* [https://github.com/OccipitalOpenSource/bridge-engine](https://github.com/OccipitalOpenSource/bridge-engine)
 
 
 
-# Parts
+## Parts
 
 * [https://www.smart-prototyping.com/index.php?route=product/product&product_id=44428](https://www.smart-prototyping.com/index.php?route=product/product&product_id=44428)
 * [https://www.smart-prototyping.com/Project-North-Star-Display-Driver-Board](https://www.smart-prototyping.com/Project-North-Star-Display-Driver-Board)
@@ -80,15 +79,15 @@ We are building tools to show 3D maps at worldscale, record the world, record pe
 
 
 
-# Tools
+## Tools
 
-## Masterpiece Studio
+### Masterpiece Studio
 
 * [https://www.masterpiecevr.com/spotlight](https://www.masterpiecevr.com/spotlight)
 
 ## 
 
-## Editor XR
+### Editor XR
 
 * [https://forum.unity.com/threads/welcome-to-the-editorxr-forums.446379/](https://forum.unity.com/threads/welcome-to-the-editorxr-forums.446379/)
 * [https://docs.google.com/document/d/1RD0SAjWnXdtY6eOC4qHk_fcl7w2-aBGrF3rX5pk5KDo/edit](https://docs.google.com/document/d/1RD0SAjWnXdtY6eOC4qHk_fcl7w2-aBGrF3rX5pk5KDo/edit)
@@ -108,8 +107,6 @@ We are building tools to show 3D maps at worldscale, record the world, record pe
 * Download Structure SDK (Cross Platform) 0.7.1
 * Update FW + Install Drivers
 
-### 
-
 ### Core Streaming (Optional)
 
 * Install CMake + Install Visual Studio 2017
@@ -117,8 +114,6 @@ We are building tools to show 3D maps at worldscale, record the world, record pe
 * Open build\StructureSDK-CrossPlatform.sln
 * Build and Run CorePlayground
 * If a Unix-like environment such as Git Bash (part of Git for Windows) or MSYS2 is installed, the included build script may be used instead. $ Scripts/build.sh
-
-### 
 
 ### Perception Engine
 
@@ -128,8 +123,6 @@ We are building tools to show 3D maps at worldscale, record the world, record pe
 * Navigate to Samples/XRUnity/Assets/Scenes 
 * Double-click on FirstPersonScene.unity
 * Play in Simulator
-
-### 
 
 ### Integrating North Star 
 
@@ -161,6 +154,7 @@ We are building tools to show 3D maps at worldscale, record the world, record pe
 #### Part 4
 
 *  Comment out ARRaytracer.cs Line 73
+
 
 
 ## Pumori
@@ -201,4 +195,3 @@ Key Code Shortcuts in NorthStar.unity (in the Editor with the Game View in focus
 We have included a pre-built version of the internal calibration tool. We can make no guarantees about the accuracy of the process in DIY environments; this pipeline is built from multiple stages, each with multiple points of failure. Included in the .zip file are a python script for calibrating the calibration cameras, a checkerboard .pdf to be used with that, and Windows-based Calibrator exe, and a readme describing how to execute the entire process.
 
 Click for friendlier video overview:
-
